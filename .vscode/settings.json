@@ -1,3 +1,7 @@
 {
-  "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe"
+  "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+  "files.insertFinalNewline": true,
+
+  // Configure intellisense to use the C++23 standard
+  "C_Cpp.default.cppStandard": "c++20"
 }
