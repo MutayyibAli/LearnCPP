@@ -3,5 +3,6 @@
   "files.insertFinalNewline": true,
 
   // Configure intellisense to use the C++23 standard
-  "C_Cpp.default.cppStandard": "c++20"
+  "C_Cpp.default.cppStandard": "c++20",
+  "cSpell.words": ["learncpp"]
 }
