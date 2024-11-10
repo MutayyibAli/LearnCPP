@@ -49,11 +49,19 @@ int main()
         // Use C++20 Standard (Default is C++17)
         "-std=c++20",
 
-        "${file}",
+        // Include directories for header files
+        // "-I/source/includes",
+
+        // Compile multiple files
+        "${fileDirname}\\**.cpp",
+
+        // Compile Single file
+        // "${file}",
+
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
-      */
+*/
 
 // Editing the settings files in VS Code
 /*
