@@ -1,7 +1,4 @@
-#include <iostream>
-
-int readNumber();
-void writeAnswer(int output);
+#include "io.h"
 
 int main()
 {
